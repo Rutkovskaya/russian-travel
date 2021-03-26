@@ -6,10 +6,7 @@ font-style: normal;
 }
   
 .page{
-    min-width: 320px;
-    max-width: 1280px;
     font-family: "Intert", Arial, sans-serif;
     background-color: #2A2C2F;
     color: #FFFFFF;
-    margin: 0 auto;
 }

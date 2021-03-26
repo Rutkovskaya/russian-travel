@@ -1,5 +1,9 @@
 .header {
-    padding: 28px 48px 0 48px;
+    max-width: 1184px;
+    min-width: 288px;
+    padding-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: 1fr max-content max-content;
     gap: 18px;

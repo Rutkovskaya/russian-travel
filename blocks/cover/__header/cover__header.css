@@ -1,9 +1,7 @@
-.cover__overlay{
+.cover__header{
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.3;
-    background-color: #2A2C2F;
     display: flex;
     flex-direction: column;
     justify-content: center;
