@@ -1,5 +1,6 @@
 .cover__title{
     white-space: pre-line;
+    padding-top: 245px;
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 900;
@@ -10,23 +11,36 @@
     margin: 0;
 }
 
+@media (max-width: 1024px) {
+	.cover__title{
+        padding-top: 195px;
+	}
+}
+
+@media (max-width: 768px) {
+	.cover__title{
+        padding-top: 115px;
+	}
+}
+
 @media (max-width: 700px) {
 	.cover__title{
-		font-size: 60px;
-        line-height: 60px;
+	  font-size: 60px;
+      line-height: 60px;
 	}
 }
 
 @media (max-width: 600px) {
 	.cover__title{
-		font-size: 45px;
-        line-height: 45px;
+	  font-size: 45px;
+      line-height: 45px;
 	}
 }
 
 @media (max-width: 425px) {
 	.cover__title{
 	 font-size: 32px;
-   line-height: 35px;
+     line-height: 35px;
+     padding-top: 33px;
 	}
 }
