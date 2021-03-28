@@ -6,6 +6,7 @@
     background-size: 100% 100%;
     color: inherit;
     z-index: 1;
+    background-size:cover;
 }
 
 .cover__background::after {
