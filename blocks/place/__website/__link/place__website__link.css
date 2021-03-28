@@ -4,5 +4,8 @@ line-height: 22px;
 text-decoration-line: underline;
 color: #FFFFFF;
 margin: 0;
-padding-top: 12px;
+}
+
+.place__website__link:hover{
+    opacity: 80%;
 }

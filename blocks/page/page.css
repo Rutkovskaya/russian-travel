@@ -1,12 +1,6 @@
-@font-face{
-font-family: "Intert";
-src: url('../../fronts/Inter-Medium.otf');
-font-weight: normal;
-font-style: normal;
-}
-  
 .page{
-    font-family: "Intert", Arial, sans-serif;
+    max-width: 1280px;
     background-color: #2A2C2F;
-    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
 }

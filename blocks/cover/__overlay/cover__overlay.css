@@ -8,4 +8,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 2;
+}
+
+.cover__overlay:hover{
+    opacity: 0.8;
 }

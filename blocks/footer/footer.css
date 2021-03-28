@@ -1,11 +1,26 @@
 .footer{
     max-width: 1184px;
-    min-width: 288px;
     padding-top: 92px;
     padding-bottom: 24px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, max-content) 1fr;
     gap: 18px;
+    color: #FFFFFF;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+	.footer{
+        padding-top: 88px;
+	}
+}
+
+@media (max-width: 320px) {
+	.footer{
+        padding-top: 64px;
+        display: grid;
+        grid-template-columns: repeat(1, max-content);
+        gap: 32px;
+	}
 }
