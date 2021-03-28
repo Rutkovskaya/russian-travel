@@ -10,13 +10,19 @@
     font-family: "Inter", Arial, sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 	.footer{
-        padding-top: 88px;
+        padding-top: 88px 48px 0 48px;
 	}
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
+	.footer{
+        padding-top: 88px 24px 0 24px;
+	}
+}
+
+@media (max-width: 680px) {
 	.footer{
         padding-top: 64px;
         display: grid;

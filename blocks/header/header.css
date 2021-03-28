@@ -1,4 +1,5 @@
 .header {
+    box-sizing: border-box;
     padding: 28px 48px 0 48px;
     display: grid;
     grid-template-columns: 1fr max-content max-content;

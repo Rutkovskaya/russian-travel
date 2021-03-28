@@ -1,4 +1,5 @@
 .lead{
+   box-sizing: border-box;
    max-width: 984px;
    min-width: 320px;
    padding-top: 56px;

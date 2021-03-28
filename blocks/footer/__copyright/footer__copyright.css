@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
 	.footer__copyright{
         padding-top: 16px;
         margin-left: 16px;
