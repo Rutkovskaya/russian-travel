@@ -2,8 +2,7 @@
     box-sizing: border-box;
     padding: 28px 48px 0 48px;
     display: grid;
-    grid-template-columns: 1fr max-content max-content;
-    gap: 18px;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     color: #FFFFFF;
     font-family: "Inter", Arial, sans-serif;

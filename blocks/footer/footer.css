@@ -3,9 +3,10 @@
         padding-top: 92px;
         padding-bottom: 24px;
         margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(5, max-content) 1fr;
-        gap: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         color: #FFFFFF;
         font-family: "Inter", Arial, sans-serif;
 }
@@ -25,8 +26,6 @@
 @media (max-width: 680px) {
         .footer {
                 padding-top: 64px;
-                display: grid;
-                grid-template-columns: repeat(1, max-content);
-                gap: 32px;
+                flex-direction: column;
         }
 }

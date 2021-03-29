@@ -6,6 +6,7 @@
     line-height: 28px;
     text-align: right;
     color: #FFFFFF;
+    margin-left: 18px;
 }
 
 @media (max-width: 425px) {
