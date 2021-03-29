@@ -1,25 +1,26 @@
-.cover{
-   box-sizing: border-box;
-   max-width: 1280px;
-   padding: 92px 48px 0 48px;
-   color: #FFFFFF;
-   font-family: "Inter", Arial, sans-serif;
+.cover {
+	box-sizing: border-box;
+	max-width: 1280px;
+	position: relative;
+	padding: 92px 48px 0 48px;
+	color: #FFFFFF;
+	font-family: "Inter", Arial, sans-serif;
 }
 
 @media (max-width: 1024px) {
-	.cover{
+	.cover {
 		padding: 92px 0 0 0;
 	}
 }
 
 @media (max-width: 768px) {
-	.cover{
+	.cover {
 		padding: 90px 0 0 0;
 	}
 }
 
 @media (max-width: 425px) {
-	.cover{
+	.cover {
 		padding: 66px 0 0 0;
 	}
 }

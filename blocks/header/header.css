@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 425px) {
-	.header {
-		padding: 16px 16px 0 16px;
-	}
+    .header {
+        padding: 16px 16px 0 16px;
+    }
 }
