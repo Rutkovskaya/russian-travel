@@ -9,7 +9,7 @@
         line-height: 22px;
         font-weight: 400;
         text-align: center;
-        margin-top: 32px 0 0 0;
+        margin: 32px 0 0 0;
         z-index: 3;
 }
 
@@ -27,9 +27,11 @@
 
 @media (max-width: 600px) {
         .cover__subtitle {
-                margin-top: 32px 0 0 0;
+                max-width: 288px;
+                min-height: 48px;
                 font-size: 14px;
                 line-height: 16px;
                 padding-bottom: 33px;
+                margin: 16px 0 0 0;
         }
 }

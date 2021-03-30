@@ -7,6 +7,11 @@
     text-align: right;
     color: #FFFFFF;
     margin-left: 18px;
+    transition: opacity .3s ease;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
 }
 
 @media (max-width: 425px) {
